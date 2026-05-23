@@ -1,4 +1,4 @@
-export default (bot) => {
+module.exports = (bot) => {
 
   bot.command('help', (ctx) => {
 

@@ -2,9 +2,9 @@ const {
   addNote,
   getNotes,
   clearNotes
-} = require('./services/notes');
+} = require('../services/notes');
 
-exports = (bot) => {
+module.exports = (bot) => {
   bot.command('note', (ctx) => {
 
     const text = ctx.message.text

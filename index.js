@@ -15,8 +15,8 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 require('./commands/help')(bot);
 require('./commands/reset')(bot);
-require('./commands/todo')(bot);
-require('./commands/note')(bot);
+require('./commands/todos')(bot);
+require('./commands/notes')(bot);
 require('./commands/persona')(bot);
 require('./commands/reminder')(bot);
 

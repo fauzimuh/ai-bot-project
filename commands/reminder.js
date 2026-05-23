@@ -1,6 +1,6 @@
 const {
   parseTime
-} = require('./services/reminder');
+} = require('../services/reminder');
 
 module.exports = (bot) => {
   bot.command('remindme', (ctx) => {

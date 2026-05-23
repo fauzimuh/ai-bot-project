@@ -1,7 +1,7 @@
 const {
   setPersona,
   getAvailablePersonas
-} = require('./sessions/persona');
+} = require('../sessions/persona');
 
 module.exports = (bot) => {
 
